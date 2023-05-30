@@ -1,0 +1,28 @@
+.formWrapper {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  justify-content: center;
+  min-width: 130px;
+  height: auto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.375;
+  letter-spacing: 0em;
+  text-align: center;
+  border-radius: 40px;
+
+  &:hover,
+  &:focus {
+    box-shadow: 3px 8px 14px rgba(136, 198, 253, 0.19);
+    background: linear-gradient(290.46deg, #419ef1 0%, #9bd0ff 107.89%);
+  }
+}
