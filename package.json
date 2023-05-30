@@ -2,6 +2,7 @@
   "name": "food-delievery-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://TrueMolni.github.io/food-delivery-app/",
   "dependencies": {
     "@redux-devtools/extension": "^3.2.5",
     "@reduxjs/toolkit": "^1.9.5",
