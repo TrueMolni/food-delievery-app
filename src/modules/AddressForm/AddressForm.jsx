@@ -1,6 +1,6 @@
 import React from 'react';
 // import { Field } from 'formik';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { nanoid } from 'nanoid';
 import scss from './address-form.module.scss';
 const nameId = nanoid();
@@ -59,6 +59,6 @@ const AddressForm = ({ onChange }) => {
   );
 };
 
-AddressForm.propTypes = {};
+// AddressForm.propTypes = {};
 
 export default AddressForm;

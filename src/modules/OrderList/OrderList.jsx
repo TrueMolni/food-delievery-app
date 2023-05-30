@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import scss from './order-list.module.scss';
 
 const OrderList = props => {
@@ -11,7 +11,7 @@ const OrderList = props => {
   );
 };
 
-OrderList.propTypes = {};
+// OrderList.propTypes = {};
 
 export default OrderList;
 

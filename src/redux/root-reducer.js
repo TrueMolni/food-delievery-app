@@ -8,11 +8,8 @@ const persistConfig = {
   storage,
 };
 
-const someReducer = persistReducer(persistConfig);
-
 const rootReducer = combineReducers({
-  some: someReducer,
   food: foodReducer,
 });
 
-export default rootReducer;
+export default persistReducer(persistConfig, rootReducer);

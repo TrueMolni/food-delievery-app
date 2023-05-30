@@ -8,7 +8,7 @@ import Loader from 'modules/Loader/Loader';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/food-delivery-app">
       <Suspense fallback={<Loader />}>
         <Routes>
           <Route path="/" element={<SharedLayout />}>
